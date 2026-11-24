@@ -1,105 +1,41 @@
-
 # ChefGuard IoT
 
-### Cocina inteligente para prácticas gastronómicas seguras
+Prototipo de cocina inteligente para supervisar las condiciones de un laboratorio de prácticas gastronómicas.
 
-🏆 Ganador del HackaTec Local 2026 — InnovaTecNM
+**Reconocimiento del equipo:** primer lugar en el HackaTec Local 2026 (InnovaTecNM) y clasificación a la etapa regional. **Equipo:** Los 5 Fantásticos, TecNM Campus Tláhuac.
 
-**Equipo:** Los 5 Fantásticos  
-**Institución:** Instituto Tecnológico de Tláhuac  
-**Fecha:** Mayo de 2026  
-**Categoría:** Tecnologías Emergentes — Internet de las Cosas (IoT)
+## Problema y solución
 
----
-
-## Descripción del proyecto
-
-ChefGuard es un prototipo de cocina inteligente basado en Internet de las Cosas, diseñado para supervisar las condiciones ambientales y automatizar procesos dentro de laboratorios de prácticas gastronómicas.
-
-## Problemática
-
-Los espacios destinados a prácticas gastronómicas presentan riesgos asociados con temperaturas elevadas, iluminación insuficiente, ventilación inadecuada y falta de supervisión de las estaciones de trabajo.
-
-ChefGuard propone una solución tecnológica orientada a la prevención de riesgos y la optimización de recursos.
+En un laboratorio de cocina es difícil vigilar de forma continua la temperatura, la iluminación y la disponibilidad de las estaciones. El equipo desarrolló un prototipo que integra sensores, ventilación automatizada y una interfaz web de monitoreo.
 
 ## Funcionalidades
 
-- Monitoreo de temperatura y humedad.
-- Detección de iluminación ambiental.
-- Ventilación automatizada.
-- Detección de disponibilidad de estaciones de trabajo.
-- Indicadores y alertas visuales mediante LEDs.
-- Visualización de datos mediante una interfaz web.
-- Integración de sensores y actuadores.
+- Mide temperatura y humedad y detecta cambios en la iluminación.
+- Detecta la disponibilidad de estaciones y comunica su estado mediante indicadores LED.
+- Activa la ventilación según las lecturas de temperatura y muestra los datos en una interfaz web.
 
-## Tecnologías utilizadas
+## Tecnologías
 
-| Tecnología | Aplicación |
-|---|---|
-| ESP32 | Control y comunicación del sistema |
-| Arduino IDE | Programación del microcontrolador |
-| DHT11 | Medición de temperatura y humedad |
-| LDR | Detección de iluminación |
-| TCRT5000 | Detección de disponibilidad |
-| Servomotores | Automatización de mecanismos |
-| L298N | Control del sistema de ventilación |
-| Proteus | Simulación electrónica |
-| Sweet Home 3D | Diseño del espacio gastronómico |
-| Interfaz web | Monitoreo y visualización de datos |
+ESP32 y Arduino IDE para control y programación. DHT11, LDR y TCRT5000 para adquisición de datos. Servomotores, LED y L298N para actuación y señalización. Proteus para simulación electrónica y Sweet Home 3D para el plano del espacio.
 
 ## Mi contribución
 
-- Propuesta de la idea original del proyecto.
-- Conceptualización de la solución tecnológica.
-- Maquetación y desarrollo de la interfaz web.
-- Desarrollo colaborativo de la lógica de funcionamiento.
-- Apoyo en la integración electrónica, soldadura y ensamblaje.
-- Colaboración en la coordinación del equipo.
-- Preparación y presentación del proyecto ante el jurado.
+Propuse y conceptualicé la idea, y maqueté y desarrollé la interfaz web. Colaboré en la lógica de control, la integración electrónica, la soldadura y el ensamblaje. También apoyé la coordinación del equipo y la presentación ante el jurado.
 
-## Resultados y reconocimientos
+## Resultados
 
-- Desarrollo de un prototipo físico funcional.
-- Integración de hardware y software.
-- Primer lugar en el HackaTec Local 2026.
-- Clasificación del equipo a la etapa regional.
+El equipo integró un prototipo físico funcional que combina sensores, actuadores y monitoreo web. En la etapa local, el equipo obtuvo el primer lugar por este proyecto.
 
 ## Evidencias del proyecto
 
+### Prototipo y plano
 
-## Evidencias del proyecto
+<p><a href="images/prototipo.jpeg"><img src="images/prototipo.jpeg" width="300" alt="Montaje electrónico del prototipo ChefGuard"></a> <a href="images/plano-cocina.jpeg"><img src="images/plano-cocina.jpeg" width="300" alt="Plano del laboratorio de cocina realizado en Sweet Home 3D"></a></p>
 
-### Prototipo electrónico funcional
+Montaje electrónico del equipo y plano de la cocina, almacén, zona de lavado y área de monitoreo.
 
-<p align="center">
-  <img src="images/prototipo.jpeg" width="450" alt="Prototipo electrónico de ChefGuard">
-</p>
+### Reconocimiento
 
-Integración de sensores, actuadores y componentes electrónicos para el monitoreo y automatización de la cocina inteligente.
+<a href="images/constancia-hackatec.jpeg"><img src="images/constancia-hackatec.jpeg" width="430" alt="Constancia de participación destacada, HackaTec Local 2026"></a>
 
-### Diseño de la cocina inteligente
-
-<p align="center">
-  <img src="images/plano-cocina.jpeg" width="750" alt="Plano de la cocina inteligente">
-</p>
-
-Distribución de las áreas de cocina, almacén, centro de lavado y monitoreo mediante Sweet Home 3D.
-
-### Constancia de participación destacada
-
-<p align="center">
-  <img src="images/constancia-hackatec.jpeg" width="450" alt="Constancia HackaTec Local 2026">
-</p>
-
-Constancia otorgada al equipo Los 5 Fantásticos por su destacada participación en el HackaTec Local, InnovaTecNM 2026.
-
-
-## Equipo de desarrollo
-
-Los 5 Fantásticos — TecNM Campus Tláhuac.
-
-Proyecto desarrollado colaborativamente durante el HackaTec Local 2026.
-
-## Estado del repositorio
-
-Documentación de un proyecto académico de innovación tecnológica para fines de portafolio profesional.
+Constancia de participación destacada del equipo en la etapa local.
