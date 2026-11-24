@@ -66,7 +66,33 @@ ChefGuard propone una solución tecnológica orientada a la prevención de riesg
 
 ## Evidencias del proyecto
 
-Sección destinada a fotografías, diagramas y documentación técnica del prototipo.
+
+## Evidencias del proyecto
+
+### Prototipo electrónico funcional
+
+<p align="center">
+  <img src="images/prototipo.jpeg" width="450" alt="Prototipo electrónico de ChefGuard">
+</p>
+
+Integración de sensores, actuadores y componentes electrónicos para el monitoreo y automatización de la cocina inteligente.
+
+### Diseño de la cocina inteligente
+
+<p align="center">
+  <img src="images/plano-cocina.jpeg" width="750" alt="Plano de la cocina inteligente">
+</p>
+
+Distribución de las áreas de cocina, almacén, centro de lavado y monitoreo mediante Sweet Home 3D.
+
+### Constancia de participación destacada
+
+<p align="center">
+  <img src="images/constancia-hackatec.jpeg" width="450" alt="Constancia HackaTec Local 2026">
+</p>
+
+Constancia otorgada al equipo Los 5 Fantásticos por su destacada participación en el HackaTec Local, InnovaTecNM 2026.
+
 
 ## Equipo de desarrollo
 
